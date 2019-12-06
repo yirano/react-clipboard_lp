@@ -1,9 +1,52 @@
 @import '../../modules/colors.scss';
 
 header {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
 	width: 100vw;
 	height: 100vh;
 	background-image: url('../../images/bg-header-desktop.png');
 	background-size: contain;
 	background-repeat: no-repeat;
+
+	div {
+		margin: 17px 0;
+	}
+
+	button {
+		width: 153px;
+		height: 37px;
+		border: none;
+		margin: 0 7px;
+		border-radius: 20px;
+		color: #fff;
+		font-size: 0.67em;
+		letter-spacing: 0.6px;
+	}
+
+	.caption {
+		font-size: 0.9em;
+		margin-top: 18px;
+	}
+}
+
+.logo img {
+	width: 90px;
+}
+
+.headerText {
+	width: 600px;
+	text-align: center;
+}
+
+.dl-ios {
+	background-color: $strongCyan;
+	box-shadow: 0px 5px 10px #26baa45c;
+}
+
+.dl-mac {
+	background-color: $lightBlue;
+	box-shadow: 0px 5px 10px #6173ff52;
 }
