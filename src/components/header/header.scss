@@ -1,0 +1,9 @@
+@import '../../modules/colors.scss';
+
+header {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../../images/bg-header-desktop.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
