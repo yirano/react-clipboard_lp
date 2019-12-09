@@ -1,0 +1,16 @@
+@import '../../modules/colors';
+
+.accessClipboard {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	height: 100vh;
+	.topElement {
+		height: 20%;
+	}
+	.bottomElement {
+		height: 100%;
+		width: 100%;
+		background: url('../../images/image-devices.png') no-repeat center;
+	}
+}

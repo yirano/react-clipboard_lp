@@ -1,2 +1,15 @@
 @import './modules/reset.scss';
 @import './modules/fonts.scss';
+
+.topElement {
+	width: 50%;
+	height: 37%;
+	text-align: center;
+	font-size: 1.3em;
+	align-self: center;
+	.caption {
+		font-size: 0.78em;
+		margin-top: 1em;
+		line-height: 1.6em;
+	}
+}
