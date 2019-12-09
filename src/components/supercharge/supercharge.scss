@@ -5,16 +5,25 @@
 
 	div {
 		display: flex;
-		height: 33%;
 		margin: 0 auto;
 		&.topElement {
 			flex-flow: column;
+			height: 33%;
+		}
+
+		&.thirdElement {
+			height: auto;
+			img {
+				width: auto;
+				margin: 0;
+			}
 		}
 	}
 }
 
 .card {
 	flex-flow: column;
+	flex-wrap: wrap;
 	text-align: center;
 	margin: 0 20px;
 
