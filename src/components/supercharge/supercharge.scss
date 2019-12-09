@@ -2,6 +2,14 @@
 
 .supercharge {
 	flex-flow: column;
+
+	div {
+		display: flex;
+
+		&.topElement {
+			flex-flow: column;
+		}
+	}
 }
 
 .card {
