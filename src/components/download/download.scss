@@ -1,1 +1,20 @@
 @import '../../modules/colors';
+
+.download {
+	flex-flow: column;
+	height: 450px;
+	.bottomElement {
+		align-self: center;
+		button {
+			height: 40px;
+			width: 140px;
+			margin: 0 10px;
+			color: #fff;
+			border: none;
+			background-color: $lightBlue;
+			&:first-child {
+				background-color: $strongCyan;
+			}
+		}
+	}
+}
