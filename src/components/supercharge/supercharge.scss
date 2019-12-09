@@ -1,4 +1,9 @@
 @import '../../modules/colors';
 
 .supercharge {
+	flex-flow: column;
+}
+
+.card {
+	height: 100%;
 }
