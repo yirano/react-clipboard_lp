@@ -5,7 +5,8 @@
 
 	div {
 		display: flex;
-
+		height: 33%;
+		margin: 0 auto;
 		&.topElement {
 			flex-flow: column;
 		}
@@ -13,5 +14,15 @@
 }
 
 .card {
-	height: 100%;
+	flex-flow: column;
+	text-align: center;
+	margin: 0 20px;
+
+	img {
+		margin-bottom: 45px;
+	}
+
+	.caption {
+		width: 400px;
+	}
 }
