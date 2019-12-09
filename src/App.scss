@@ -1,6 +1,11 @@
 @import './modules/reset.scss';
 @import './modules/fonts.scss';
 
+section {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
 .topElement {
 	width: 50%;
 	height: 37%;
