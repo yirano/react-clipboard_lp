@@ -4,6 +4,7 @@ import KeepTrack from './components/keepTrack/keepTrack';
 import AccessClipboard from './components/accessClipboard/accessClipboard';
 import Supercharge from './components/supercharge/supercharge';
 import Download from './components/download/download';
+import Footer from './components/footer/footer';
 import './App.scss';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 			<AccessClipboard />
 			<Supercharge />
 			<Download />
+			<Footer />
 		</div>
 	);
 }
