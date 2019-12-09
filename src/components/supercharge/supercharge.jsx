@@ -1,4 +1,5 @@
 import React from 'react';
+import './supercharge.scss';
 
 export default function supercharge() {
 	return (
