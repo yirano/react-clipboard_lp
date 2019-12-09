@@ -1,0 +1,22 @@
+@import '../../modules/colors';
+
+footer {
+	display: flex;
+	background-color: #f0f3f5;
+	color: $grayishBlue;
+	padding: 30px;
+
+	ul {
+		list-style: none;
+		display: flex;
+	}
+
+	.firstColumn {
+	}
+
+	.secondColumn {
+	}
+
+	.thirdColumn {
+	}
+}
