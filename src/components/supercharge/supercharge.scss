@@ -1,21 +1,21 @@
 @import '../../modules/colors';
 
 .supercharge {
-	flex-flow: column;
-
 	div {
 		display: flex;
 		margin: 0 auto;
 		&.topElement {
 			flex-flow: column;
-			height: 33%;
+			align-self: flex-start;
+			max-height: 100px;
 		}
 
 		&.thirdElement {
-			height: auto;
-			img {
-				width: auto;
-				margin: 0;
+			max-height: 100px;
+
+			.logoContainer {
+				align-items: flex-start;
+				margin: 0 50px;
 			}
 		}
 	}

@@ -79,11 +79,13 @@ export class supercharge extends Component {
 				</div>
 				<div className="thirdElement">
 					{this.state.companyLogos.map(({ logo, id }) => {
-						return <img src={logo} alt="company logos" key={id} />;
+						return (
+							<div className="logoContainer" key={id}>
+								<img src={logo} alt="company logos" />
+							</div>
+						);
 					})}
 				</div>
-
-				<div className="bottomElement" />
 			</section>
 		);
 	}
