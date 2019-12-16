@@ -14,17 +14,16 @@
 		}
 	}
 
+	section {
+		height: 100%;
+	}
+
 	.topElement {
 		width: 90%;
 	}
 
-	section {
-		height: 120vh;
-	}
-
 	.keepTrack {
 		.bottomContent {
-			// height: 100vh;
 			.rightElement,
 			.leftElement {
 				height: 50%;
@@ -42,6 +41,7 @@
 	.accessClipboard {
 		.bottomElement {
 			background-size: contain;
+			height: 100%;
 		}
 	}
 }
