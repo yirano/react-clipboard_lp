@@ -7,8 +7,9 @@
 
 	.bottomContent {
 		height: 100%;
-
 		display: flex;
+		flex-wrap: wrap;
+
 		.rightElement,
 		.leftElement {
 			width: 50%;
