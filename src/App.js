@@ -6,7 +6,7 @@ import Supercharge from './components/supercharge/supercharge';
 import Download from './components/download/download';
 import Footer from './components/footer/footer';
 import './App.scss';
-import './components/responsive/responsive.scss';
+import './modules/_responsive.scss';
 
 function App() {
 	return (
