@@ -3,6 +3,7 @@
 .supercharge {
 	div {
 		display: flex;
+		flex-wrap: wrap;
 		margin: 0 auto;
 		&.topElement {
 			flex-flow: column;

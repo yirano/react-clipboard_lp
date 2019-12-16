@@ -5,18 +5,32 @@ footer {
 	background-color: #f0f3f5;
 	color: $grayishBlue;
 	padding: 30px;
+	width: 100%;
+
+	a {
+		text-decoration: none;
+	}
 
 	ul {
 		list-style: none;
 		display: flex;
 	}
 
+	div {
+		display: flex;
+	}
+
 	.firstColumn {
+		width: 25%;
 	}
 
 	.secondColumn {
+		flex-wrap: wrap;
+		width: 50%;
+		justify-content: center;
 	}
 
 	.thirdColumn {
+		width: 25%;
 	}
 }
