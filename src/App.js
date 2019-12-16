@@ -5,8 +5,8 @@ import AccessClipboard from './components/accessClipboard/accessClipboard';
 import Supercharge from './components/supercharge/supercharge';
 import Download from './components/download/download';
 import Footer from './components/footer/footer';
-import './components/responsive/responsive.scss';
 import './App.scss';
+import './components/responsive/responsive.scss';
 
 function App() {
 	return (
