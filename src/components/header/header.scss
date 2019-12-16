@@ -15,17 +15,6 @@ header {
 		margin: 23px 0;
 	}
 
-	button {
-		width: 212px;
-		height: 53px;
-		border: none;
-		margin: 0 7px;
-		border-radius: 40px;
-		color: #fff;
-		font-size: 0.9em;
-		letter-spacing: 0.6px;
-	}
-
 	h1 {
 		font-size: 2.5em;
 	}
@@ -35,6 +24,17 @@ header {
 		margin-top: 18px;
 		letter-spacing: 0.017em;
 	}
+}
+
+button {
+	width: 212px;
+	height: 53px;
+	border: none;
+	margin: 0 7px;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 0.9em;
+	letter-spacing: 0.6px;
 }
 
 .headerText {
@@ -50,4 +50,14 @@ header {
 .dl-mac {
 	background-color: $lightBlue;
 	box-shadow: 0px 5px 10px #6173ff52;
+}
+
+@media only screen and (max-width: 767px) {
+	button {
+		display: block;
+		width: 80vw;
+		&:first-child {
+			margin-bottom: 20px;
+		}
+	}
 }
