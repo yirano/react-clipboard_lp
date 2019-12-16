@@ -4,7 +4,7 @@ import './keepTrack.scss';
 export default function keepTrack() {
 	return (
 		<section className="keepTrack">
-			<div className="topElement">
+			<div className="topElement headerText">
 				<h2>Keep track of your snippets</h2>
 				<p className="caption">
 					Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets
