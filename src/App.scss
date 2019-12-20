@@ -20,3 +20,17 @@ section {
 		line-height: 1.6em;
 	}
 }
+
+button {
+	width: 212px;
+	height: 53px;
+	border: none;
+	margin: 0 7px;
+	border-radius: 40px;
+	color: #fff;
+	font-size: 0.9em;
+	letter-spacing: 0.6px;
+	&:hover {
+		opacity: 0.9;
+	}
+}
