@@ -17,16 +17,20 @@ export default function footer() {
 						<a href="/">FAQs</a>
 					</li>
 					<li>
+						<a href="/">Contact Us</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
 						<a href="/">Privacy Policy</a>
 					</li>
 					<li>
-						<a href="/">Install Guide</a>
-					</li>
-					<li>
-						<a href="/">Contact Us</a>
-					</li>
-					<li>
 						<a href="/">Press Kit</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="/">Install Guide</a>
 					</li>
 				</ul>
 			</div>
